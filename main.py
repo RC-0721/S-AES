@@ -724,7 +724,6 @@ class SAESGUI:
         self.cbc_output.insert(tk.END, "   - 点击'CBC解密'\n\n")
 
         self.cbc_output.insert(tk.END, "特点说明:\n")
-        self.cbc_output.insert(tk.END, "✓ 自动PKCS7填充，支持任意长度数据\n")
         self.cbc_output.insert(tk.END, "✓ 自动IV生成（如未指定）\n")
         self.cbc_output.insert(tk.END, "✓ 支持文本和十六进制输入\n")
         self.cbc_output.insert(tk.END, "✓ 完整密文格式: IV(2字节) + 加密数据\n")
@@ -1152,3 +1151,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
